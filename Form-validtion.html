@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="Form-validation.css">
+</head>
+<body>
+
+  <div class="container">
+    <form id="form">
+      <h2>Register</h2>
+
+      <div class="input-group">
+        <label>Name</label>
+        <input type="text" id="name">
+        <span class="error" id="nameError"></span>
+      </div>
+
+      <div class="input-group">
+        <label>Email</label>
+        <input type="text" id="email">
+        <span class="error" id="emailError"></span>
+      </div>
+
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" id="password">
+        <span class="error" id="passError"></span>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="Form-validation.js"></script>
+</body>
+</html>
